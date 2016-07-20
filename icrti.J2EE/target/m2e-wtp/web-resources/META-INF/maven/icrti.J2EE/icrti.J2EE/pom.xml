@@ -7,6 +7,7 @@
   <name>proyecto convertido a maven</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>test</testSourceDirectory>
     <resources>
       <resource>
         <directory>src</directory>
