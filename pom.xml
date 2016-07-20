@@ -43,4 +43,11 @@
   	<system>jenkins</system>
   	<url>https://localhost:8443/jenkins</url>
   </ciManagement>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+  	</dependency>
+  </dependencies>
 </project>
