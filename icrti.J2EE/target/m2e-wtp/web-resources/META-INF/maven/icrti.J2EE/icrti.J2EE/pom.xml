@@ -6,8 +6,15 @@
   <packaging>war</packaging>
   <name>proyecto convertido a maven</name>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
+    
+    <testSourceDirectory>test</testSourceDirectory>      
+    <testResources>
+      <testResource>
+        <directory>test</directory>
+      </testResource>
+    </testResources>
+      
+    <sourceDirectory>src</sourceDirectory>  
     <resources>
       <resource>
         <directory>src</directory>
